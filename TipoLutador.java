@@ -22,7 +22,7 @@ public class TipoLutador extends Criatura {
     public void ataqueEspecial(Criatura oponente) {
         if (getEstamina() >= 40) {
             System.out.println(getEspecie() + " usou Soco Dinâmico! Um golpe devastador!");
-            oponente.sofrerDano(45);
+            oponente.sofrerDano(35);
             consumirEstamina(40);
         } else {
             System.out.println(getEspecie() + " está muito cansado para um soco forte!");
